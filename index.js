@@ -1,0 +1,1 @@
+console.log("My name is Farhin Akhtari and i am computer science and engineering.");
