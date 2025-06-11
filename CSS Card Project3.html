@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card 3</title>
+    <style>
+            *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       .container{
+        width: 100vw;
+        height: 100vh;
+       background-color: rgba(15, 91, 121, 0.986);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       }
+       .card{
+        width: 640px;
+        height: 350px;
+        background-color: white;
+        display: flex;
+       flex-direction: row;
+       gap: 0px;
+       }
+
+       .leftbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color:rgb(95, 12, 68); 
+        color: white;
+        width: 50%;
+        height: 100%;
+        /* padding-left: 20px; */
+        gap:20px;
+        /* padding-top: 40px; */
+        padding: 20px;
+       
+       }
+
+       .rightbox{
+        width: 50%;
+        height:100%;
+       }
+
+       .rightbox img{
+        width:100%;
+        height: 100%;
+       }
+
+       .leftbox p{
+        font-size: 1.1em;
+        font-weight: lighter;
+       }
+       .leftbox h2{
+        font-size: 1.8rem;
+       }
+       .button{
+        display: flex;
+        flex-direction: row; 
+       /* padding: 20px;
+        justify-content: space-around; */
+        gap: 30px;
+         
+       }
+       #para1{
+        font-size: 0.8rem;
+        font-weight: lighter;
+       }
+
+       #para2{
+        font-size:  0.8rem;
+        font-weight: lighter;
+       }
+
+       #para3{
+        font-size:  0.8rem;
+        font-weight: lighter;
+       }
+
+       #button1{
+        font-size: 1.4rem;
+       }
+
+       #button2{
+        font-size: 1.4rem;
+       }
+
+       #button3{
+        font-size: 1.4rem;
+       }
+       
+      
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="rightbox">
+                <img src="image of order.webp" alt="click">
+            </div>
+
+            <div class="leftbox">
+               <h2>Get insights that help your business grow</h2>
+               <div class="parabox">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis debitis aperiam vero autem, nesciunt eius quos consequatur maxime eveniet modi.</p>
+               </div>
+               <div class="button">
+                <div>
+                    <p id="button1">10K+</p>
+                     <P id="para1">comments</P> 
+                    </div>
+
+                    <div>
+                        <p id="button2">214</p>
+                         <p id="para2">Paid Users</p> 
+                    </div>
+
+                    <div>
+                        <p id="button3">12M+</p>
+                         <p id="para3">Views</p> 
+                    </div>
+               </div>
+             
+            </div>
+        </div>
+    </div>
+</body>
+</html>
